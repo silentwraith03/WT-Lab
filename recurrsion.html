@@ -1,0 +1,20 @@
+<html>
+<head><title>Factorial</title>
+<script type = "text/javascript">
+function recurr(num){
+if(num <=0)
+return 1;
+else
+return(num*recurr(num-1));
+}
+</script>
+<body>
+<script type = "text/javascript">
+var num = parseInt(prompt("Enter the number: "));
+var ans;
+ans=recurr(num);
+document.write("Factorial is ", ans);
+</script>
+</head>
+</body>
+</html>
