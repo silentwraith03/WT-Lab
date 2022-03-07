@@ -1,0 +1,21 @@
+<html>
+    <head><title>Mouse Events</title></head>
+    <script type="text/javascript">
+        function mouseEvent1(){
+            alert("onclick");
+        }
+        function mouseEvent2(){
+            alert("onmouseover");
+        }
+        function mouseEvent3(){
+            alert("onmouseout");
+        }
+    </script>
+    <body>
+    <form>
+        event1: <input type="button" value="click" onclick="mouseEvent1()">
+        event2: <input type="button" value="hoverover" onmouseover="mouseEvent2()">
+        event3: <input type="button" value="out" onmouseout="mouseEvent3()">
+    </form>
+    </body>
+    </html>
